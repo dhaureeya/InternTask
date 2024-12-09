@@ -1,0 +1,31 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(to right, #7e57c2, #4a148c);
+  color: white;
+}
+
+.left-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.right-section {
+   flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
